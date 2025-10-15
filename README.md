@@ -1,16 +1,30 @@
-# React + Vite
+# 🧠 QuizApp – React + Vite + TailwindCSS + Spring Boot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application de quiz interactive où l’utilisateur choisit une catégorie (Technologie, Nature, Politique, Sport), répond à des questions et obtient un score animé avec des effets de confettis 🎉.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies utilisées
 
-## React Compiler
+### 🎨 Frontend
+- **React 19**
+- **Vite 7**
+- **TailwindCSS 4**
+- **React Router v7**
+- **Lucide React** (icônes)
+- **react-animated-numbers** (animation du score)
+- **react-confetti-explosion** (effets de célébration)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ⚙️ Backend *(optionnel)*
+- **Spring Boot 3**
+- **Java 17**
+- **REST API**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation et exécution du projet
+
+### 🔹 Cloner le dépôt
+```bash
+git clone https://github.com/<TON-UTILISATEUR>/quizapp.git
+cd quizapp
